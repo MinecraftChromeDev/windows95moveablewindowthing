@@ -1,0 +1,91 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #008080;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background-color: white;
+  border: 5px solid #008080;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title-bar {
+  background-color: #008080;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar-text {
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.window-buttons {
+  display: flex;
+}
+
+.window-buttons button {
+  border: none;
+  background-color: #ccc;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 2px;
+  font-family: Wingdings;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window-buttons button:hover {
+  background-color: #999;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #000;
+}
+
+.status-bar {
+  background-color: #008080;
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar-left {
+  font-weight: bold;
+}
+
+.status-bar-right {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
